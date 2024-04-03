@@ -14,11 +14,11 @@ const schema = new mongoose.Schema({
             type: String,
             required: true
         },
-        pinCode:{
+        pincode:{
             type: Number,
             required: true
         },
-        phoneNo:{
+        phone:{
             type: Number,
             required: true
         },
@@ -104,7 +104,7 @@ const schema = new mongoose.Schema({
                 required: true
             }
         },
-        noodles:{
+        vegNoodles:{
             price:{
                 type: Number,
                 required: true
