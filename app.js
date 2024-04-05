@@ -49,10 +49,12 @@ app.enable("trust proxy");
 // Importing Routes
 import userRoute from './routes/user.js';
 import orderRoute from './routes/order.js';
+import contactRoute from './routes/contact.js';
 
 
 app.use("/api/v1" , userRoute);
 app.use("/api/v1" , orderRoute);
+app.use("/api/v1" , contactRoute);
 
 // Error Middleware
 app.use(errorMiddleware);
